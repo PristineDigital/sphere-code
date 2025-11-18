@@ -4,3 +4,14 @@
     "@vercel/edge": "^0.1.2"
   }
 }
+
+{
+  "headers": [
+    {
+      "source": "/styles.css",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    }
+  ]
+}
