@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'ABC Diatype';
+  src: url('https://cdn.jsdelivr.net/gh/PristineDigital/sphere@latest/abc-diatype-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.ashby-embed h1 {
+    display: none !important;
+  }
+  
+  /* Keep the job board container visible */
+  .ashby-embed #ashby_embed {
+    display: block !important;
+  }
+  
+  body {
+    background-color: red !important;
+    color: #21201C;
+    font-family: 'ABC Diatype', Arial, sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: 300 !important;
+    line-height: 1.5 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  
+  ._section_12ylk_341 {
+    max-width: 100% !important;
+  }
+  
+  ._title_ud4nd_34 {
+    display: none !important;
+  }
+
+  ._filtersContainer_12ylk_136 {
+    display: none !important;
+  }
+  
+  ._departmentHeading_12ylk_349 {
+    font-family: 'ABC Diatype', Arial, sans-serif;
+    color: #5B5B5A;
+    line-height: 1 !important;
+    font-weight: 400 !important;
+    font-size: 2rem !important;
+    margin: 0 !important;
+    margin-bottom: 1.25rem !important;
+    padding-top: 2.5rem !important;
+    border-top: 1px solid #D5D4D3 !important;
+    border-width: 1px !important;
+    border-image: repeating-linear-gradient(45deg, #D5D4D3 0%, #D5D4D3 8px, transparent 8px, transparent 16px) 1 !important;
+    margin-top: 2.5rem !important;
+  }
+  
+  .ashby-job-posting-brief-list {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+  }
+  
+  ._content_ud4nd_71 {
+    padding: 0 !important;
+  }
+  
+  ._jobPosting_12ylk_379 {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 1rem !important;
+    margin: 0 !important;
+    padding: 1.125rem 1rem !important;
+    background-color: #FFFFFF !important;
+    border: 1px solid #EBEBEB !important;
+    border-radius: 0 !important;
+    box-shadow: 0px 1px 0px #ebebeb !important;
+    transition: opacity 0.2s ease-in-out !important;
+  }
+  
+  ._title_12ylk_383 {
+    font-family: 'ABC Diatype', Arial, sans-serif;
+    color: #21201C;
+    line-height: 1 !important;
+    font-weight: 400 !important;
+    font-size: 1.5rem !important;
+  }
+  
+  ._details_12ylk_389{
+    margin: 0 !important;
+    color: #4D4D49 !important;
+    font-size: 1.125rem  !important;
+  }
+  
+  ._departments_12ylk_345 {
+    margin-top: 0.5rem !important;
+  }
+  
+  ._departmentHeading_12ylk_349:first-child {
+    border-top: none !important;
+    margin-top: 0 !important;
+  }
+  
+  .ashby-job-board-heading-count {
+    display: none !important;
+  }
+  
+  ._container_flnu3_28 a, ._recaptchaLegal_flnu3_29 a {
+    display: none !important;
+  }
+  
+  ._jobPosting_12ylk_379:hover {
+    opacity: 0.75 !important;
+  }
+  
+  @media (max-width: 767px) {
+    ._jobPosting_12ylk_379 {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: flex-start !important;
+    }
+    ._details_12ylk_389{
+      font-size: 0.875rem  !important;
+    }
+    ._title_ud4nd_34 {
+      font-size: 1.875rem !important;
+    }
+    ._departmentHeading_12ylk_349 {
+      font-size: 1.5rem !important;
+      margin-top: 1.5rem !important;
+      padding-top: 1.5rem !important;
+    }
+    ._title_12ylk_383  {
+      font-size: 1.125rem !important;
+    }
+  }
+  
+  #ashby_embed_iframe {
+    height: auto !important;
+  }
